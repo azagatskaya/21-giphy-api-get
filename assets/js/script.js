@@ -17,6 +17,7 @@ function handleSearchClick(e) {
 				// console.log(i.images.fixed_height.url);
 				gifsBox.innerHTML += gif;
 			};
-		});
+		})
+		.catch(error => console.log(error));
 	document.querySelector('.form__input--search').value = '';
 }

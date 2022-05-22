@@ -1,0 +1,70 @@
+body {
+	font-family: 'Plus Jakarta Sans',
+		sans-serif;
+}
+
+.main {
+	padding: 0 10px;
+}
+
+.form__wrapper {
+	max-width: 800px;
+	margin: 50px auto;
+	border: 1px solid #7255d1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.form__input {
+	height: 100%;
+	border-radius: 0;
+	padding: 5px 10px;
+}
+
+.material-symbols-outlined {
+	color: #7255d1;
+	padding: 0 0 0 5px;
+	width: 26px;
+	height: 26px;
+	font-variation-settings:
+		'FILL'0,
+		'wght'400,
+		'GRAD'0,
+		'opsz'48
+}
+
+.form__input--search {
+	width: 60%;
+}
+
+.form__button--submit {
+	width: 40%;
+	background-color: #7255d1;
+	color: whitesmoke;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.gifs {
+	max-width: 800px;
+	height: 200px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: space-evenly;
+}
+
+.gifs__gif {
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+}
+
+.gifs__gif img {
+	width: 100%;
+	height: 100%;
+}
